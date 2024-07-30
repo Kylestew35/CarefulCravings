@@ -32,11 +32,9 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
- {
-	display: none;
-}
- {
-	display: none;
+
+#head1 {
+	text-align: center;
 }
 ol, ul {
 	list-style: none;
@@ -2330,6 +2328,7 @@ input, select, textarea {
 
 		.image.featured {
 			display: block;
+			max-height: 500px;
 			margin: 0 0 3em 0;
 			width: 100%;
 		}
